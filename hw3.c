@@ -73,9 +73,7 @@ int main(int argc, char **argv)
             // ---print section---
 
             printf("\n────────Packet count : %d────────\n", ++packet_cnt);
-
             printf("\n<Info>\n");
-            printf("\n");
             printf("┌─ Time : %s\n", str_time);  
             printf("│\n");
             printf("├─ length : %d\n", packet_header->len); 
